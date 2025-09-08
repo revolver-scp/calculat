@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="calculator">
+        <p> </p>
+        <input class="result" id="result" readonly type="text">
+        <p> </p>
+        <div class="df">
+            <button onclick="clearResult()" class="gre">C</button>
+            <button class="gre">(</button>
+            <button class="gre">)</button>
+            <button onclick=" digit('/')" class="blu">/</button>
+        </div>
+        <p> </p>
+        <div class="df">
+            <button onclick="digit('7')">7</button>
+            <button onclick="digit('8')">8</button>
+            <button onclick="digit('9')">9</button>
+            <button onclick="digit('x')" class="blu">x</button>
+        </div>
+        <p> </p>
+        <div class="df">
+            <button onclick="digit('4')">4</button>
+            <button onclick="digit('5')">5</button>
+            <button onclick="digit('6')">6</button>
+            <button onclick="digit('-')" class="blu">-</button>
+        </div>
+        <p> </p>
+        <div class="df">
+            <button onclick="digit('1')">1</button>
+            <button onclick="digit('2')">2</button>
+            <button onclick="digit('3')">3</button>
+            <button onclick="digit('+')" class="blu">+</button>
+        </div>
+        <p> </p>
+        <div class="df">
+            <button>+/-</button>
+            <button onclick="digit('0')">0</button>
+            <button onclick="digit('.')">.</button>
+            <button id="output" onclick="calculateResult()" class="blue">=</button>
+        </div>
+    </div>   
+    <script src="./script.js"></script> 
+</body>
+</html>
