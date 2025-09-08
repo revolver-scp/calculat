@@ -43,3 +43,15 @@ body{
     line-height: 5px;
     padding: -5px;
 }
+@media (max-width:520px){
+    button{
+        width: 100px;
+        height: 100px;
+    } .calculator{
+        margin: auto;
+        width: 550px;
+        height: 900px;
+    } .result{
+        width: 350px;
+    }
+}
